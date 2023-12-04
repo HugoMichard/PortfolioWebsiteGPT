@@ -1,0 +1,1 @@
+import{aS as a}from"./entry.eaaa2095.js";const i=a("DocumentationStore",{state:()=>({viewedPageMarkdown:"",pathToFile:""}),actions:{async getPageMarkdown(e){const n=await fetch(e+".md").then(function(t){return t.text()}).then(function(t){return t});this.viewedPageMarkdown=n,this.pathToFile=e}}});export{i as u};
