@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     baseURL: baseURL,
     buildAssetsDir: 'assets',
     head: {
-      link: [{ rel: 'icon', type: 'image/x-icon', href: `${baseURL}assets/images/favicon.ico` }]
+      link: [{ rel: 'icon', type: 'image/x-icon', href: `${baseURL}/images/favicon.ico` }]
     }
   }
 })

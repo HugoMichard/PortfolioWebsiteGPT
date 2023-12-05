@@ -5,7 +5,7 @@ export const useDocumentationStore = defineStore('DocumentationStore', {
   }),
   actions: {
     async getPageMarkdown(pathToFile: string) {
-      const data = await fetch(pathToFile + '.md')
+      const data = await fetch('/PortfolioWebsiteGPT' + pathToFile + '.md')
       .then(function (response) {
         return response.text()
       })

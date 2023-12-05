@@ -6,7 +6,7 @@
                 </el-image>
             </NuxtLink>
             <div class="flex-grow" />
-            <NuxtLink to="/app/dashboard">
+            <NuxtLink to="/app/login">
                 <el-menu-item index="5">Go to the App</el-menu-item>
             </NuxtLink>
         </el-menu>
