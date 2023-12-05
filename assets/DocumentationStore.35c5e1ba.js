@@ -1,1 +1,0 @@
-import{aS as n}from"./entry.e2f71a37.js";const i=n("DocumentationStore",{state:()=>({viewedPageMarkdown:"",pathToFile:""}),actions:{async getPageMarkdown(t){console.log(t+".md");const o=await fetch("/PortfolioWebsiteGPT"+t+".md").then(function(e){return e.text()}).then(function(e){return e});this.viewedPageMarkdown=o,this.pathToFile=t}}});export{i as u};
