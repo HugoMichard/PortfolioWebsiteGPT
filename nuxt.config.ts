@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     autoImports: ['defineStore', 'acceptHMRUpdate'],
   },
   app: {
-    baseURL: '/projects/websitegpt'
+    baseURL: '/PortfolioWebsiteGPT/',
+    buildAssetsDir: 'assets'
   },
 })

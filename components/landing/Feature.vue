@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-6 gap-4">
     <div class="bg-blue-500 justify-self-end h-fit p-2">
-        <icon :name="props.icon" color="white" size="30"></icon>
+        <Icon :name="props.icon" color="white" size="30"></Icon>
     </div>
     <div class="justify-self-start col-span-5">
         <h2 class="text-xl font-medium">{{ props.title }}</h2>

@@ -15,7 +15,7 @@
     </div>
     <div class="flex justify-center items-center">
       <el-image
-        src="/images/payment_methods.png"
+        src="/PortfolioWebsiteGPT/images/payment_methods.png"
         class="w-40 h-fit"
         fit="fill"
       ></el-image>

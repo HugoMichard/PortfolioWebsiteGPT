@@ -27,7 +27,7 @@
           :xs="24"
           class="grid justify-items-center max-h-48 overflow-clip"
         >
-          <el-image src="/images/landing-assistant.png" fit="fill"></el-image>
+          <el-image src="/PortfolioWebsiteGPT/images/landing-assistant.png" fit="fill"></el-image>
         </el-col>
       </el-row>
       <premium-cards v-if="false"></premium-cards>

@@ -2,7 +2,7 @@
   <el-affix :offset="0">
     <el-menu class="flex items-center" mode="horizontal" :ellipsis="false">
       <NuxtLink to="/">
-        <el-image src="/images/logo.png" class="hover:cursor-pointer">
+        <el-image src="/PortfolioWebsiteGPT/images/logo.png" class="hover:cursor-pointer">
         </el-image>
       </NuxtLink>
       <el-menu-item index="1" @click="navigateTo('#about')" class="ml-2"
