@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const baseURL = '/PortfolioWebsiteGPT/'
+
 export default defineNuxtConfig({
   plugins: ['~/plugins/api.ts'],
   imports: {
@@ -17,7 +19,10 @@ export default defineNuxtConfig({
     autoImports: ['defineStore', 'acceptHMRUpdate'],
   },
   app: {
-    baseURL: '/PortfolioWebsiteGPT/',
-    buildAssetsDir: 'assets'
-  },
+    baseURL: baseURL,
+    buildAssetsDir: 'assets',
+    head: {
+      link: [{ rel: 'icon', type: 'image/x-icon', href: `${baseURL}assets/images/favicon.ico` }]
+    }
+  }
 })
