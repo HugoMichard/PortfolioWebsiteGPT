@@ -8,10 +8,7 @@ An Assistant can leverage specific knowledge you introduce to respond to user qu
 
 This repository contains the landing page and part of the documentation of the project WebsiteGPT. **The app itself is currently not deployed anymore**.
 
-# Developer guide
-
-To launch in local, just download the git repo, and run `npm install`, followed by `npm run dev`.
 
 # Static Landing Website
 
-To deploy easily to github pages, you can build this project with `nuxt generate` followed by `gh-pages --dotfiles -d .output/public`. This will push a branch to `gh-pages` to github. Select that branch in `Settings` > `Pages`.
+To deploy easily to github pages, you can build this project with `npm install`, then `nuxt generate` followed by `gh-pages --dotfiles -d .output/public`. This will push a branch to `gh-pages` to github. Select that branch in `Settings` > `Pages`.
