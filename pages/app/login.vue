@@ -1,5 +1,5 @@
 <template>
-    <h1 class="mb-24 text-center text-3xl">Sign In</h1>
+    <h1 class="mb-12 text-center text-3xl">Sign In</h1>
     <el-form ref="ruleFormRef" :model="form" label-width="120px" label-position="top" :rules="rules"
         require-asterisk-position="right">
         <el-form-item label="Email" prop="email">
