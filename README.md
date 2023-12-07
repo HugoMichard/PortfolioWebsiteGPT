@@ -1,63 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Welcome to PortfolioWebsiteGPT
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Important Note**: WebsiteGPT development has been stopped after the release of GPTs by OpenAI as it provides the same features. 
 
-## Setup
 
-Make sure to install the dependencies:
+WebsiteGPT is a platform to conceive your own custom assistant powered by ChatGPT in only a few clicks.
+An Assistant can leverage specific knowledge you introduce to respond to user queries. The Assistant currently supports three types of data: Website, Document, and specific Question & Answer. In the future, we plan to release more types of data to allow you to provide a more diverse flux of incoming knowledge to your assistant on our platform.
 
-```bash
-# npm
-npm install
+This repository contains the landing page and part of the documentation of the project WebsiteGPT. **The app itself is currently not deployed anymore**.
 
-# pnpm
-pnpm install
+# Developer guide
 
-# yarn
-yarn install
-```
+To launch in local, just download the git repo, and run `npm install`, followed by `npm run dev`.
 
-## Development Server
+# Static Landing Website
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+To deploy easily to github pages, you can build this project with `nuxt generate` followed by `gh-pages --dotfiles -d .output/public`. This will push a branch to `gh-pages` to github. Select that branch in `Settings` > `Pages`.
