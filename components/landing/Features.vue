@@ -13,10 +13,10 @@
 
 <script setup lang="ts">
 const features = [
-  { icon: "mdi:clock-fast", title: "Quick setup", description: "Forget bookmarking manga and manually checking if a new chapter got released. We automatically track manga across many sites, from big to small."},
-  { icon: "ic:baseline-dashboard-customize", title: "Fully customizable", description: "When the latest chapter of your favourite manga gets released, we automagically update your dashboard, so that you can jump straight into reading."},
-  { icon: "simple-icons:openai", title: "Powered by ChatGPT", description: "You can trust us to keep your manga list safe. We don't store manga chapters, meaning we won't get that DMCA takedown that killed your favourite manga provider."},
-  { icon: "ic:baseline-monitor", title: "Easy monitoring", description: "Forget bookmarking manga and manually checking if a new chapter got released. We automatically track manga across many sites, from big to small."}
+  { icon: "mdi:clock-fast", title: "Quick setup", description: "It only takes a few clicks to setup your custom assistant and get started using it ! Add your website url, some documents if you have any and start chatting with it immediately !"},
+  { icon: "ic:baseline-dashboard-customize", title: "Fully customizable", description: "Your assistant is completely customizable, from it's name and function to extremely specific answers it must know to some questions."},
+  { icon: "simple-icons:openai", title: "Powered by ChatGPT", description: "ChatGPT is used as our engine to answer your user's questions. We rely on a proven cutting-edge solution to give the best results possible"},
+  { icon: "ic:baseline-monitor", title: "Easy monitoring", description: "Your users usage can be easily monitored from our dashboard"}
 ]
 
 </script>
