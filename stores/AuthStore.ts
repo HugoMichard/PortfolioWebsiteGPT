@@ -26,16 +26,14 @@ export const useAuthStore = defineStore('auth', {
     },
     actions: {
         async login(email: string, password: string) {
-            api().api.post(`users/login`, { email, password }, {}, false).then((response: response) => {
-                this.user = response.item;
-                navigateTo('/app/dashboard')
+            ElMessage.error({
+                message: 'WebsiteGPT development has been stopped and the app is no longer available. Please make an issue here https://github.com/HugoMichard/PortfolioWebsiteGPT to ask for access'
             })
         },
         async register(email: string, password: string) {
-            api().api.post(`users/register`, { email, password }, {}, false).then((response: response) => {
-                this.user = response.item;
-                navigateTo('/app/tutorial')
-            });
+            ElMessage.error({
+                message: 'WebsiteGPT development has been stopped and the app is no longer available. Please make an issue here https://github.com/HugoMichard/PortfolioWebsiteGPT to ask for access'
+            })
 
         },
         unsubscribe() {
