@@ -1,5 +1,5 @@
 <template>
-  <el-row class="h-[calc(100vh-60px)] items-center" id="about">
+  <el-row class="md:h-[calc(100vh-60px)] md:min-h-[50rem] items-center" id="about">
     <el-col :span="12" :xs="24" class="grid justify-items-center">
       <div class="pl-10">
         <h1 class="text-5xl font-bold text-left">
@@ -22,8 +22,8 @@
         >
       </div>
     </el-col>
-    <el-col :span="12" :xs="24" class="grid justify-items-center">
-      <el-image src="/PortfolioWebsiteGPT/images/landing-discussion.png" fit="contain"></el-image>
+    <el-col :span="12" :xs="24" class="grid justify-items-center mt-5 mb-5">
+      <el-image src="/images/landing-discussion.png" fit="contain"></el-image>
     </el-col>
   </el-row>
 </template>
