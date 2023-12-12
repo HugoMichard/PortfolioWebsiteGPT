@@ -23,7 +23,7 @@
       </div>
     </el-col>
     <el-col :span="12" :xs="24" class="grid justify-items-center mt-5 mb-5">
-      <el-image src="/images/landing-discussion.png" fit="contain"></el-image>
+      <el-image src="/PortfolioWebsiteGPT/images/landing-discussion.png" fit="contain"></el-image>
     </el-col>
   </el-row>
 </template>
