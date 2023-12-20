@@ -51,8 +51,6 @@ const defaultMenuItemTitle = defaultMenuItemWithDocumentation.substring(
   defaultMenuItemWithDocumentation.lastIndexOf('/') + 1
 )
 
-console.log(defaultMenuItemTitle)
-
 const defaultItem = menuList
   .map((m, idx) => {
     return { title: m.title, idx: (idx + 1).toString() }

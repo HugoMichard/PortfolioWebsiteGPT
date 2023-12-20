@@ -62,7 +62,7 @@ const signUp = async (formEl) => {
     if (!formEl) return
     await formEl.validate(async (valid, fields) => {
         if (valid) {
-            authStore.register(form.email, form.password).then(response => console.log(response))
+            authStore.register(form.email, form.password)
         } else {
             console.log('error submit!', fields)
         }

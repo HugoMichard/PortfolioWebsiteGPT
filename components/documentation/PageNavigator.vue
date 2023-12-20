@@ -10,8 +10,8 @@
           <span
             class="cursor-pointer hover:text-sky-500"
             :class="{
-              'text-xl': title.level === 1,
-              'text-lg': title.level === 2
+              'text-base': title.level === 1,
+              'text-sm': title.level === 2
             }"
           >
             {{ title.text }}
